@@ -1,16 +1,12 @@
 # flutter_lector_qr
 
-A new Flutter project.
+App que permite escanear códigos qr, etiquetas geo y direcciones web, almacenandolas en la base de datos SQFLite para su posterior consulta. 
 
-## Getting Started
+Se hace uso de las siguientes librerias
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+qrcode_reader: librería para leer códigos qr
+sqflite: base de datos 
+path_provider: acceder a directorios dentro del dispositivo
+url_launcher: apertura del navegador web desde la app
+flutter_map: libería para dibujar mapas apoyándose en el api de mapbox.
+mapbox api: api que nos provee de información para dibujar los mapas.
